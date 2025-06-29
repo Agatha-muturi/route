@@ -5,9 +5,9 @@ const MovieCard =({movie})=>{
             <Link to={`/movie/${movie.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
             
             <img src={movie.posterURL} alt={movie.title} width='200'/>
-            <h3>{movie.title}</h3>
-            <p>{movie.description}</p>
-            <p>⭐{movie.rating}</p>
+            <h3>{movie.title}</h3><br/>
+            {movie.description}<br/>
+            ⭐{movie.rating}
             </Link>
         </div>
     );
