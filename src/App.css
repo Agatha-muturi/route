@@ -1,8 +1,37 @@
 .App {
   text-align: center;
 }
+.App h1{
+  color: white;
+}
+body {
+  margin: 0;
+  font-family: oswald;
+  background-image: url('./assets/Cinema.jpeg'); /* 🔗 Use your image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 220px;
+  background: #f9f9f9;
+  justify-content: space-between;
+}
+  .List {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  }
+  .input, .movieform {
+    padding: 20px;
+  margin-bottom: 20px;
+  }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +64,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
